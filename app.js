@@ -2,7 +2,7 @@ const express = require('express')
 const path = require('path');
 
 const BMIFolder = path.resolve(__dirname, './FSD/BMI')
-const calculatorApp = path.resolve(BMIFolder, 'calculator.html')
+const calculatorApp = path.resolve(BMIFolder, 'index.html')
 
 const app = express()
 
