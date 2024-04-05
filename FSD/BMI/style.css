@@ -1,0 +1,78 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+
+
+.full-screen {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding-top: 50px;
+    box-sizing: border-box;
+    border: solid black;
+}
+
+#landing{
+    left: 0;
+}
+
+#calculator{
+    left: 100%;
+
+}
+
+#calculator.active{
+    left: 0;
+    transition: all ease-in 0.8s;
+}
+
+#results{
+    left: 100%;
+}
+
+#results.active{
+    left: 0;
+    transition: all ease-in-out 0.8s;
+}
+
+#title{
+    font-size: 8rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900;
+    background-clip: text;
+    background-image: url("assets/title-back.avif");
+    background-size: 110% auto;
+    background-position: center;
+    color: transparent;
+    background-clip: text;    
+}
+
+.t1{
+    border-radius: 20px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: xx-large;
+    font-family: 'Work Sans', sans-serif;
+    text-shadow: 0.05em 0.05em rgb(243, 133, 133);
+}
+
+#landing button{
+    font-size: x-large;
+    width: 20%;
+    height: 20%;
+    border-radius: 20px;
+    background: linear-gradient(rgb(124, 221, 228), rgb(148, 226, 148));
+}
+
+#homeBtn{
+    width: 40px;
+    height: 30px;
+    background: yellowgreen solid;
+    border-radius: 4px;
+}
